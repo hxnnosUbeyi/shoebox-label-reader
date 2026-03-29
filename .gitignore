@@ -1,6 +1,9 @@
 # 编译输出
 build/
 out/
+.hvigor/
+.cxx/
+.gradle/
 
 # IDE配置
 .idea/
