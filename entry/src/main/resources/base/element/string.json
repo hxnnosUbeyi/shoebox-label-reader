@@ -1,0 +1,32 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "攀岩鞋标签识别应用"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "主入口Ability"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "标签识别"
+    },
+    {
+      "name": "reason_internet",
+      "value": "需要联网下载AI识别模型"
+    },
+    {
+      "name": "reason_camera",
+      "value": "需要相机权限拍摄鞋标照片"
+    },
+    {
+      "name": "reason_read_media",
+      "value": "需要读取相册图片进行文字识别"
+    },
+    {
+      "name": "reason_write_media",
+      "value": "需要写入存储权限保存CSV文件到下载目录"
+    }
+  ]
+}

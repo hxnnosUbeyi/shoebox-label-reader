@@ -1,0 +1,12 @@
+# Define project specific obfuscation rules here.
+# You can include the obfuscation configuration files in your current module's build-profile.json5.
+#
+# For more details, see
+# https://gitee.com/openharmony/arkcompiler_ets_frontend/blob/master/arkguard/README.md
+
+# Keep all .ets file names
+-keep-file-name
+    .ets
+
+# Keep all global names
+-keep-global-name

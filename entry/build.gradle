@@ -1,0 +1,9 @@
+plugins {
+    id 'com.huawei.agconnect'
+}
+
+dependencies {
+    // 华为 ML Kit OCR
+    implementation 'com.huawei.hms:ml-computer-vision-ocr:3.11.0.300'
+    implementation 'com.huawei.hms:ml-computer-vision-ocr-cn-model:3.11.0.300'
+}

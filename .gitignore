@@ -1,0 +1,35 @@
+# 编译输出
+build/
+out/
+
+# IDE配置
+.idea/
+*.iml
+
+# 本地配置
+local.properties
+
+# 签名配置
+ signing/
+*.p12
+*.csr
+
+# 依赖缓存
+node_modules/
+oh_modules/
+
+# 日志文件
+*.log
+
+# 临时文件
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# 生成的文件
+Generated_Dist/
+
+# 用户数据
+userData/
+cache/

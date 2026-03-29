@@ -1,0 +1,132 @@
+{
+  "version": 1,
+  "ohos-module-entry": {
+    "SELECT_TARGET": "default",
+    "MODULE_BUILD_DIR": "D:\\vscode_project\\label_reader\\entry\\build",
+    "TARGETS": {
+      "default": {
+        "SOURCE_ROOT": "D:\\vscode_project\\label_reader\\entry\\src\\main",
+        "RESOURCES_PATH": [
+          "D:\\vscode_project\\label_reader\\entry\\src\\main\\resources"
+        ],
+        "BUILD_PATH": {
+          "OUTPUT_PATH": "D:\\vscode_project\\label_reader\\entry\\build\\default\\outputs\\default",
+          "INTERMEDIA_PATH": "D:\\vscode_project\\label_reader\\entry\\build\\default\\intermediates",
+          "JS_ASSETS_PATH": "D:\\vscode_project\\label_reader\\entry\\build\\default\\intermediates\\loader_out\\default",
+          "JS_LITE_ASSETS_PATH": "D:\\vscode_project\\label_reader\\entry\\build\\default\\intermediates\\loader_out_lite\\default",
+          "RES_PATH": "D:\\vscode_project\\label_reader\\entry\\build\\default\\intermediates\\res\\default",
+          "RES_PROFILE_PATH": "D:\\vscode_project\\label_reader\\entry\\build\\default\\intermediates\\res\\default\\resources\\base\\profile",
+          "ETS_SUPER_VISUAL_PATH": "D:\\vscode_project\\label_reader\\entry\\build\\default\\cache\\default\\default@CompileArkTS\\esmodule",
+          "JS_SUPER_VISUAL_PATH": "D:\\vscode_project\\label_reader\\entry\\build\\default\\cache\\default\\default@CompileJS\\jsbundle",
+          "WORKER_LOADER": "D:\\vscode_project\\label_reader\\entry\\build\\default\\intermediates\\loader\\default\\loader.json",
+          "MANIFEST_JSON": "D:\\vscode_project\\label_reader\\entry\\build\\default\\intermediates\\manifest\\default",
+          "OUTPUT_METADATA_JSON": "D:\\vscode_project\\label_reader\\entry\\build\\default\\intermediates\\hap_metadata\\default\\output_metadata.json",
+          "SOURCE_MAP_DIR": "D:\\vscode_project\\label_reader\\entry\\build\\default\\intermediates\\source_map\\default"
+        },
+        "BUILD_OPTION": {
+          "debuggable": true
+        }
+      }
+    },
+    "BUILD_OPTION": {
+      "default-default": {
+        "debuggable": true,
+        "copyFrom": "default"
+      }
+    },
+    "BUILD_PROFILE_OPT": {
+      "apiType": "stageMode",
+      "buildOption": {},
+      "targets": [
+        {
+          "name": "default"
+        }
+      ]
+    },
+    "BUILD_CACHE_DIR": ""
+  },
+  "ohos-project": {
+    "SELECT_PRODUCT_NAME": "default",
+    "MODULE_BUILD_DIR": "D:\\vscode_project\\label_reader\\build",
+    "BUNDLE_NAME": "com.example.labelreader",
+    "VERSION_CODE": 1000000,
+    "VERSION_NAME": "1.0.0",
+    "BUILD_PATH": {
+      "OUTPUT_PATH": "D:\\vscode_project\\label_reader\\build\\outputs\\default"
+    },
+    "MODULES": [
+      {
+        "name": "entry",
+        "srcPath": "D:\\vscode_project\\label_reader\\entry",
+        "targets": [
+          {
+            "name": "default",
+            "applyToProducts": [
+              "default"
+            ]
+          }
+        ],
+        "belongProjectPath": "D:\\vscode_project\\label_reader"
+      }
+    ],
+    "PROFILE_OPT": {
+      "app": {
+        "signingConfigs": [
+          {
+            "name": "default",
+            "type": "HarmonyOS",
+            "material": {
+              "certpath": "C:\\Users\\Admin\\.ohos\\config\\default_label_reader_-_HcTonoaI3w7ELI_DOoAGMKg1Q9MUrK2k7BTb37qjE=.cer",
+              "keyAlias": "debugKey",
+              "keyPassword": "0000001B665A69F0B7A6D46EFBDFDB140ECC86786BA4F0FB5AF0BD9E189C69156EAB6BFC3C0D16C61A7D72",
+              "profile": "C:\\Users\\Admin\\.ohos\\config\\default_label_reader_-_HcTonoaI3w7ELI_DOoAGMKg1Q9MUrK2k7BTb37qjE=.p7b",
+              "signAlg": "SHA256withECDSA",
+              "storeFile": "C:\\Users\\Admin\\.ohos\\config\\default_label_reader_-_HcTonoaI3w7ELI_DOoAGMKg1Q9MUrK2k7BTb37qjE=.p12",
+              "storePassword": "0000001B9EFA5E4C5CD3963E4E4DE4F49EFACD7C717C12E7320587A588FE05291ACE29AB2FEA370BF242B7"
+            }
+          }
+        ],
+        "products": [
+          {
+            "name": "default",
+            "signingConfig": "default",
+            "compatibleSdkVersion": "6.0.2(22)",
+            "targetSdkVersion": "6.0.2(22)",
+            "runtimeOS": "HarmonyOS"
+          }
+        ],
+        "buildModeSet": [
+          {
+            "name": "debug"
+          },
+          {
+            "name": "release"
+          }
+        ]
+      },
+      "modules": [
+        {
+          "name": "entry",
+          "srcPath": "./entry",
+          "targets": [
+            {
+              "name": "default",
+              "applyToProducts": [
+                "default"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "CONFIG_PROPERTIES": {
+      "enableSignTask": true,
+      "skipNativeIncremental": false,
+      "hvigor.keepDependency": true
+    },
+    "OVERALL_PROJECT_PATHS": [
+      "D:\\vscode_project\\label_reader"
+    ],
+    "BUILD_CACHE_DIR": ""
+  }
+}
